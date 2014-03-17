@@ -1,0 +1,42 @@
+		<!-- Artigos de conteudo -->	
+			<article>
+				<figure>
+					<img src="foto-um.jpg" />
+					<figcaption><p>A cheeky macaque, Lower Kintaganban River, Borneo. Original<p></figcaption>
+				</figure>
+				
+			</article>
+
+			<article>
+				<figure>
+					<img src="foto-dois.jpg" />
+					<figcaption><p>A cheeky macaque, Lower Kintaganban River, Borneo. Original</p></figcaption>
+				</figure>
+				
+			</article>
+
+			<article>
+				<figure>
+					<img src="foto-um.jpg" />
+					<figcaption><p>A cheeky macaque, Lower Kintaganban River, Borneo. Original</p></figcaption>
+				</figure>
+				
+			</article>
+
+
+			<article>
+				<figure>
+					<img src="foto-dois.jpg" />
+					<figcaption><p>A cheeky macaque, Lower Kintaganban River, Borneo. Original</p></figcaption>
+				</figure>
+				
+			</article>
+
+
+			<article>
+				<figure>
+					<img src="foto-um.jpg" />
+					<figcaption><p>A cheeky macaque, Lower Kintaganban River, Borneo. Original</p></figcaption>
+				</figure>
+				
+			</article>
