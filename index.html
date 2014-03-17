@@ -4,64 +4,40 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="teste.css">
-
+	
 </head>
 
 <body>
+
+
 		<!-- Container -->
 	<div id="container">	
 		
 		<!-- Cabecalho -->
 		<header> 
 			<h1>LOREN IPSUN</h1>
-
 		</header>
 
 		<!-- Conteudo -->
 		<section>
 			
-		<!-- Artigos de conteudo -->	
-			<article>
-				<figure>
-					<img src="foto-um.jpg" />
-					<figcaption><p>A cheeky macaque, Lower Kintaganban River, Borneo. Original<p></figcaption>
-				</figure>
-				
-			</article>
-
-			<article>
-				<figure>
-					<img src="foto-dois.jpg" />
-					<figcaption><p>A cheeky macaque, Lower Kintaganban River, Borneo. Original</p></figcaption>
-				</figure>
-				
-			</article>
-
-			<article>
-				<figure>
-					<img src="foto-um.jpg" />
-					<figcaption><p>A cheeky macaque, Lower Kintaganban River, Borneo. Original</p></figcaption>
-				</figure>
-				
-			</article>
+		<div>
+    
+		    <div class="rssDiv">
+		        <div id="divRss"></div>
+		    </div>
 
 
-			<article>
-				<figure>
-					<img src="foto-dois.jpg" />
-					<figcaption><p>A cheeky macaque, Lower Kintaganban River, Borneo. Original</p></figcaption>
-				</figure>
-				
-			</article>
+		    <div class="rssDiv">
+		        <div id="divRss"></div>
+		    </div>
+
+		    <div class="rssDiv">
+		        <div id="divRss"></div>
+		    </div>
 
 
-			<article>
-				<figure>
-					<img src="foto-um.jpg" />
-					<figcaption><p>A cheeky macaque, Lower Kintaganban River, Borneo. Original</p></figcaption>
-				</figure>
-				
-			</article>
+		</div>
 
 		
 
@@ -70,6 +46,21 @@
 		<!-- Rodape -->
 		<footer></footer>
 	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://momentjs.com/downloads/moment-with-langs.min.js"></script>
+	<script type="text/javascript" src="js/FeedEk.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        $('#divRss').FeedEk({
+	            FeedUrl: 'http://globoesporte.globo.com/servico/semantica/editorias/plantao/futebol/feed.rss',
+	            MaxCount: 5
+	        });
+
+	  
+	    });
+
+	</script>
 </body>
 
 </html>
