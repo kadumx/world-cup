@@ -1,10 +1,98 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-size: 10px;
-    background-color: #fff;
+
+/** Globais **/ 
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: none;
 }
 
-.hidden {
-    display: none;
+img, hr{
+	border: hidden;
 }
+
+ul{
+	list-style: none;
+}
+
+img{
+	border: none;
+}
+
+/** Container **/
+
+#container{
+	width: 246px;
+	height: 100%;
+
+}
+
+/** Cabecalho - Header **/ 
+
+header {
+	width: 246px;
+	height: 40px;
+	background: #65A745;
+	font-family: arial, verdana, sans-serif;
+	font-size: 16px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+
+}
+
+header h1{
+	font-family: arial, verdana, sans-serif;
+	font-size: 16px; 
+	color:#F4E156;
+	padding: 11px 0;
+	text-align: center;
+}
+
+
+/** Cabecalho - Header **/ 
+
+section {
+	width: 246px;
+	height: 100%;
+
+}
+
+article { }
+
+figure img {
+	width: 244px;
+	height: 148px;
+}
+
+figcaption p{
+	width: 244px;
+	color: #fff;
+	font-size: 11px;
+	font-family: arial, verdana, sans-serif;
+	background: #000;
+	margin-top: -30px;
+	position: fixed;
+
+
+}
+
+
+/** Rodapé - Footer **/ 
+
+footer {
+	width: 246px;
+	height: 40px;
+	background: #65A745;
+	font-family: arial, verdana, sans-serif;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
