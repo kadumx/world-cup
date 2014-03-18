@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+
+<body>
+
+
+		<!-- Container -->
+	<div id="container">	
+		
+		<!-- Cabecalho -->
+		<header> 
+			<h1>COPA DO MUNDO - 2014</h1>
+		</header>
+
+		<!-- Conteudo -->
+		<section>
+			
+		<div id="container-jogos">
+    		<p>próximos jogos</p>
+    		<div id="lista-jogos">
+    			<ul>
+    				<li><img src="bra-escudo.png"></li>
+    				<li class="resultado-jogos">X</li>
+    				<li><img src="cro-escudo.png"></li>
+    			</ul>
+ 
+    		</div>
+    		
+    		<div id="descricao-jogos"> 
+
+    		</div>
+
+
+		</div>
+
+		</section>
+
+		<!-- Rodape -->
+		<footer>
+			<ul>
+	            <li><img src="noticias.png"><a href="index.html">Noticia</a></li>
+	            <li><img src="jogos-hover.png"><a href="jogos.html">Jogos</a></li>
+	            <li><img src="grupo.png"><a href="grupos.html">Grupos</a></li>
+	            <li><img src="equipe.png"><a href="equipes.html">Equipes</a></li>
+	            <li><img src="estadio.png"><a href="estadios.html">Estádios</a></li>
+
+	        </ul>
+        </footer>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://momentjs.com/downloads/moment-with-langs.min.js"></script>
+	<script type="text/javascript" src="js/FeedEk.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        $('#divRss').FeedEk({
+	            FeedUrl: 'http://globoesporte.globo.com/servico/semantica/editorias/plantao/futebol/feed.rss',
+	            MaxCount: 5
+	        });
+
+	  
+	    });
+
+	</script>
+</body>
+
+</html>
