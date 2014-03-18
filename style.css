@@ -54,7 +54,6 @@ img{
 /** Fecha css do rss de noticias **/
 
 
-
 /** Container **/
 
 #container{
@@ -117,19 +116,100 @@ figcaption p{
 /** Rodapé - Footer **/ 
 
 footer {
+width: 246px;
+height: 40px;
+background: #6AA82E;
+position: fixed;
+bottom: 0;
+left: 0;
+z-index: 1;
+
+
+}
+
+footer ul {
+width: 246px;
+height: 40px;
+}
+
+footer li{
+width: 49px;
+height: 19px;
+float: left;
+list-style: none;
+font-size: 10px;
+font-family: arial,verdana,sans-serif;
+color: #F3E32A;
+text-align: center;
+
+}
+
+footer li a {
+	margin-top: 40px;
+font-size: 10px;
+font-family: arial,verdana,sans-serif;
+color: #F3E32A;
+text-align: center;
+
+}
+
+footer li a:hover{
+
+}
+
+/** Container - Jogos **/
+
+#container-jogos{
 	width: 246px;
-	height: 40px;
-	background: #65A745;
-	font-family: arial, verdana, sans-serif;
-	position: fixed;
-	bottom: 0;
-	z-index: 1;
+	height: 142px;
+	border-top: groove 4px #65A745;
+	background:#F1F2F4;
+	margin-top: 40px;
+} 
+
+#container-jogos p {
+	font-size: 10px;
+	font-family: arial,verdana,sans-serif;
+	color: #044B79;
+	margin: 5px 0 10px 5px;
+}
+
+#lista-jogos {
+	width: 246px;
+	height: 70px;
+	
+}
+
+#lista-jogos ul {
+	width: 246px;
+	height: 70px;
+	margin-left: 30px;
 }
 
 
+#lista-jogos li {
+	float: left;
+	list-style: none;
+}
+	
+#lista-jogos img {
+	padding: 0 10px;
+}
+	
+.resultado-jogos {
+	padding: 0 10px;
+	font-family: arial,verdana,sans-serif;
+	font-size: 12px;
+	
+	color: #004588;
 
-
-
+}
+}
+#descricao-jogos {
+	width: 240px;
+	height: 39px;
+	
+}
 
 
 
