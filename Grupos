@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+
+<body>
+
+
+		<!-- Container -->
+	<div id="container">	
+		
+		<!-- Cabecalho -->
+		<header> 
+			<h1>COPA DO MUNDO - 2014</h1>
+		</header>
+
+		<!-- Conteudo -->
+		<section>
+        <!-- Container grupo a -->
+		<p class="grupo-a">Grupo A</p>
+        <div id="container-grupo">
+            
+            <table width="15%" border="0">
+              <tr>
+                <td colspan="9"></td>
+              </tr>
+              <tr>
+                <td>P</td>
+                <td>J</td>
+                <td>G</td>
+                <td>H</td>
+                <td>T</td>
+                <td>Y</td>
+                <td>U</td>
+                <td>P</td>
+                <td>W</td>
+              </tr>
+              <tr>
+                <td>02</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+
+
+        </div>
+
+        <!-- Container grupo b -->
+        <p class="grupo-a">Grupo B</p>
+        <div id="container-grupo">
+            
+
+
+
+        </div>
+
+        <!-- Container grupo c -->
+        <p class="grupo-a">Grupo C</p>
+        <div id="container-grupo">
+            
+
+
+
+        </div>
+
+        <!-- Container grupo d -->
+        <p class="grupo-a">Grupo D</p>
+        <div id="container-grupo">
+            
+
+
+
+        </div>
+
+        <!-- Container grupo e -->
+        <p class="grupo-a">Grupo E</p>
+        <div id="container-grupo">
+            
+
+
+
+        </div>
+		
+        <!-- Container grupo f -->
+        <p class="grupo-a">Grupo F</p>
+        <div id="container-grupo">
+            
+
+
+
+        </div>
+
+        <!-- Container grupo g -->
+        <p class="grupo-a">Grupo G</p>
+        <div id="container-grupo">
+            
+
+
+
+        </div>
+
+        <!-- Container grupo h -->
+        <p class="grupo-a">Grupo H</p>
+        <div id="container-grupo">
+            
+
+
+
+        </div>
+		
+
+    	<div class="bloco"> </div>
+
+
+
+		</section>
+
+		<!-- Rodape -->
+		<footer>
+			<ul>
+	            <li><img src="noticias.png"><a href="index.html">Noticia</a></li>
+	            <li><img src="jogos.png"><a href="jogos.html">Jogos</a></li>
+	            <li><img src="grupos-hover.png"><a href="grupos.html">Grupos</a></li>
+	            <li><img src="equipe.png"><a href="equipes.html">Equipes</a></li>
+	            <li><img src="estadio.png"><a href="estadios.html">Estádios</a></li>
+
+	        </ul>
+        </footer>
+	</div>
+
+	
+</body>
+
+</html>
