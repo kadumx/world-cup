@@ -139,13 +139,22 @@ float: left;
 list-style: none;
 font-size: 10px;
 font-family: arial,verdana,sans-serif;
-color: #F3E32A;
+color: #fff;
 text-align: center;
 
 }
 
 footer li a {
-	margin-top: 40px;
+margin-top: 40px;
+font-size: 10px;
+font-family: arial,verdana,sans-serif;
+color: #fff;
+text-align: center;
+
+}
+
+footer li a:active {
+margin-top: 40px;
 font-size: 10px;
 font-family: arial,verdana,sans-serif;
 color: #F3E32A;
@@ -153,9 +162,6 @@ text-align: center;
 
 }
 
-footer li a:hover{
-
-}
 
 /** Container - Jogos **/
 
@@ -222,3 +228,20 @@ footer li a:hover{
 	height: 45px;
 	background: #fff;
 }
+
+.grupo-a, .grupo-b, .grupo-c, .grupo-d, .grupo-e, .grupo-f, .grupo-g, .grupo-h {
+	font-size: 10px;
+	font-family: arial,verdana,sans-serif;
+	color: #044B79;
+	margin: 50px 0 10px 5px;
+
+}
+
+#container-grupo{
+	width: 246px;
+	height: 142px;
+	border-top: groove 4px #65A745;
+	background:#F1F2F4;
+	margin-top: 5px;
+} 
+
