@@ -18,6 +18,15 @@ img{
 	border: none;
 }
 
+td {
+	font-family: arial, verdana, sans-serif;
+	font-size: 11px;
+	color: #65A745;
+}
+
+td img {
+   margin-left: 5px;
+}
 
 /** Css do rss de noticias **/
 
